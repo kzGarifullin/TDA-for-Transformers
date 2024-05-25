@@ -24,24 +24,24 @@ All experiments were performed in Google Colab. Links to all experiments:
 ### Description of Notebooks
 
 - **TDA_comparison_1layer_1head.ipynb**  
-  Training 3 models on features obtained from the last layer from the last head of attention: baseline, baseline + directional TDA, and baseline + non-directional TDA.
+  Training 3 models on features obtained from the last layer and the last head of attention: baseline, baseline + directed TDA, and baseline + ubdirected TDA.
 
 - **TDA_comparison_all_layers_and_heads.ipynb**  
-  Training 3 models on features obtained from all layers and from all heads of attention: baseline, baseline + directional TDA, and baseline + non-directional TDA.
+  Training 3 models on features obtained from all layers and all heads of attention: baseline, baseline + directed TDA, and baseline + undirected TDA.
 
 - **directed_features_1layer_1head.ipynb**  
-  Calculation of TDA of features received from the last layer from the last attention head, considering attention maps of both directed and undirected graphs.
+  Calculation of TDA-features received from the last layer and the last attention head, considering attention maps as both directed and undirected graphs.
 
 - **directed_features_all_layers_and_heads.ipynb**  
-  Calculation of TDA of features received from all layers and from all heads of attention, considering attention maps of both directed and undirected graphs.
+  Calculation of TDA-features received from all layers and all heads of attention, considering attention maps as both directed and undirected graphs.
 
 ### Description of Scripts
 
 - **all_layers_heads_features.py**  
-  A script for calculating the TDA of features obtained from all layers and from all heads of attention, considering attention maps in both directed and undirected graphs. Used in `directed_features_all_layers_and_heads.ipynb`.
+  A script for calculating the TDA-features obtained from all layers and all heads of attention, considering attention maps as both directed and undirected graphs. Used in `directed_features_all_layers_and_heads.ipynb`.
 
 - **directed_graphs_TDA.py**  
-  A script for calculating TDA of features received from the last layer from the last attention head, considering attention maps of both directed and undirected graphs. Used in `TDA_comparison_1layer_1head.ipynb`.
+  A script for calculating TDA-features received from the last layer and the last attention head, considering attention maps as both directed and undirected graphs. Used in `TDA_comparison_1layer_1head.ipynb`.
 
 - **baseline_train.py**  
   Script for training the baseline model.
@@ -51,6 +51,3 @@ All experiments were performed in Google Colab. Links to all experiments:
 
 
 
-
-### Undirected TDA features calculation pipeline
-Now the undirected TDA features calculation pipeline available in notebook_for_second_project_status_report.ipynb
