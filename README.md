@@ -1,6 +1,6 @@
 # Exploring Directed vs. Undirected Graph-Based Topological Data Analysis of Transformer Attention Maps
 
-This project investigates the application of di- rected graph analysis to transformer attention maps, comparing it with traditional undirected graph methods
+This project investigates the application of directed graph analysis to transformer attention maps, comparing it with traditional undirected graph methods.
 
 ## Course Project: Selected Topics in DS 2024 Course
 
