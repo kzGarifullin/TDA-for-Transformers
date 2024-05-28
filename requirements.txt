@@ -1,0 +1,15 @@
+torch
+scikit-learn
+tqdm
+numpy
+giotto-tda
+scipy
+transformers
+datasets
+requests
+PyDrive
+google-colab
+oauth2client
+xgboost
+python-igraph
+ipython
